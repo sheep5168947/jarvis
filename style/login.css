@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-image: url('../pic/Lovepik_com-500351234-scientific-and-technological-sense-of-the-earth-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    border: 0px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 180px;
+}
+
+h2 {
+    font-family: monospace;
+    text-transform: uppercase;
+    color: #fffff6;
+    font-weight: bold;
+}
+
+.top_bar {
+    /* background-image: url(./pic/imgae3.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain; */
+    height: auto;
+}
+
+.login_form {
+    background-image: url('../pic/5d1577323ad0a.png');
+    /* background-color: gray; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 600px;
+    padding-right: 600px;
+}

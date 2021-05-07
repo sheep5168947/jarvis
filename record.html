@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style/record.css">
+    <title>選課紀錄</title>
+</head>
+
+<body>
+    <div class="">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-light px-5 py-3">
+            <a class="navbar-brand" href="./class_info.html">
+                <img src="./pic/logo-removebg-preview.png" height="50" alt=""> Jarvis兒童程式設計
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./class_info.html">課程資訊 </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./add_class.html">新增選課</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./record.html">選課紀錄</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./management.html">後臺管理</a>
+                    </li>
+
+                </ul>
+            </div>
+            <a href="" class="nav-brand"></a>
+            <form class="form-inline">
+                <a class="btn btn-outline-danger my-2 my-sm-0" href="./login.html">登出</a>
+            </form>
+        </nav>
+        <!-- <div class="d-flex flex-row text-left align-items-center top_bar">
+            <img src="./pic/logo-removebg-preview.png" alt="" class="logo">
+            <h2>
+                兒童程式教育中心
+            </h2>
+        </div> -->
+
+        <div class="class_info_form p-5">
+            <h2 class="pb-3">
+                選課紀錄
+            </h2>
+            <table class="table my-3">
+                <thead>
+                    <tr>
+                        <th scope="col">課程代號</th>
+                        <th scope="col">課程名稱</th>
+                        <th scope="col">上課日期</th>
+                        <th scope="col">上課時間</th>
+                        <th scope="col">上課學生</th>
+                        <th scope="col">控制</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-primary">
+                        <th scope="row">1</th>
+                        <td>Arduino Uno</td>
+                        <td>2021-01-21~2021-02-05</td>
+                        <td>星期一~星期五 15:00~16:00</td>
+                        <td>Steve</td>
+                        <td><button class="btn btn-outline-danger btn-sm">刪除</button></td>
+                    </tr>
+                    <tr class="table-secondary">
+                        <th scope="row">2</th>
+                        <td>Arduino Uno</td>
+                        <td>2021-01-21~2021-02-05</td>
+                        <td>星期一~星期五 15:00~16:00</td>
+                        <td>Steve</td>
+                        <td><button class="btn btn-outline-danger btn-sm">刪除</button></td>
+                    </tr>
+                    <tr class="table-primary">
+                        <th scope="row">3</th>
+                        <td>Arduino Uno</td>
+                        <td>2021-01-21~2021-02-05</td>
+                        <td>星期一~星期五 15:00~16:00</td>
+                        <td>Steve</td>
+                        <td><button class="btn btn-outline-danger btn-sm">刪除</button></td>
+                    </tr>
+                    <tr class="table-secondary">
+                        <th scope="row">4</th>
+                        <td>Arduino Uno</td>
+                        <td>2021-01-21~2021-02-05</td>
+                        <td>星期一~星期五 15:00~16:00</td>
+                        <td>Steve</td>
+                        <td><button class="btn btn-outline-danger btn-sm">刪除</button></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- <form action="" method="POST"> -->
+
+
+            <!-- <input type="Submit" action="Submit" class="btn btn-dark btn-sg" data-toggle="modal" data-target=""> -->
+            <!-- </form> -->
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
