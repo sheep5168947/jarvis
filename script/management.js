@@ -33,19 +33,19 @@ function changeSelector() {
 function student_add() {
     // 學生的資訊
     var student_name = document.getElementById("student_name")
-    var student_school = document.getElementById("student_school")
+    var student_account = document.getElementById("student_account")
+    var student_password = document.getElementById("student_password")
     var student_number = document.getElementById("student_number")
-    var student_grade = document.getElementById("student_grade")
         // 學生資訊不能為空
-    if (student_name.value == "" || student_number.value == "" || student_school.value == "" || student_grade.value == "") {
+    if (student_name.value == "" || student_password.value == "" || student_account.value == "" || student_number.value == "") {
         console.log("有空白")
     } else {
         // 新增學生資訊
         var obj = {}
         obj['student_name'] = student_name.value
-        obj['student_school'] = student_school.value
+        obj['student_account'] = student_account.value
+        obj['student_password'] = student_password.value
         obj['student_number'] = student_number.value
-        obj['student_grade'] = student_grade.value
         student_info_list.push(obj)
 
         // 製作新增的學生資訊並回傳到html
@@ -66,11 +66,11 @@ function student_add() {
         }
         th_name.setAttribute('scope', 'row')
         th_name.appendChild(text)
-        text = document.createTextNode(student_school.value)
+        text = document.createTextNode(student_account.value)
         td_school.appendChild(text)
-        text = document.createTextNode(student_number.value)
+        text = document.createTextNode(student_password.value)
         td_number.appendChild(text)
-        text = document.createTextNode(student_grade.value)
+        text = document.createTextNode(student_number.value)
         td_grade.appendChild(text)
         btn.setAttribute('class', 'btn btn-outline-danger btn-sm')
         text = document.createTextNode("刪除")
@@ -91,26 +91,26 @@ function class_add() {
     var class_member_count = document.getElementById("class_member_count")
     var class_eqipment_count = document.getElementById("class_eqipment_count")
         // 班級資訊不能為空
-    if (class_id.value == "" || class_name.value == "" || class_member_count.value == "" || class_eqipment_count.value == "") {
+    if (class_name.value == "") {
         console.log("有空白")
     } else {
         // 新增班級資訊
         var obj = {}
-        obj['class_id'] = class_id.value
+            // obj['class_id'] = class_id.value
         obj['class_name'] = class_name.value
-        obj['class_member_count'] = class_member_count.value
-        obj['class_eqipment_count'] = class_eqipment_count.value
+            // obj['class_member_count'] = class_member_count.value
+            // obj['class_eqipment_count'] = class_eqipment_count.value
         class_info_list.push(obj)
 
         // 製作新增的學生資訊並回傳到html
-        var th_id = document.createElement('th')
+        // var th_id = document.createElement('th')
         var td_name = document.createElement('td')
-        var td_member_count = document.createElement('td')
-        var td_equipment_count = document.createElement('td')
+            // var td_member_count = document.createElement('td')
+            // var td_equipment_count = document.createElement('td')
         var td_btn = document.createElement('td')
         var btn = document.createElement('button')
         var tr = document.createElement('tr')
-        var text = document.createTextNode(class_id.value)
+            // var text = document.createTextNode(class_id.value)
         if (class_table_primary_or_secondary == 0) {
             tr.setAttribute('class', 'table-primary')
             class_table_primary_or_secondary = 1
@@ -118,22 +118,22 @@ function class_add() {
             tr.setAttribute('class', 'table-secondary')
             class_table_primary_or_secondary = 0
         }
-        th_id.setAttribute('scope', 'row')
-        th_id.appendChild(text)
+        // th_id.setAttribute('scope', 'row')
+        // th_id.appendChild(text)
         text = document.createTextNode(class_name.value)
         td_name.appendChild(text)
-        text = document.createTextNode(class_member_count.value)
-        td_member_count.appendChild(text)
-        text = document.createTextNode(class_eqipment_count.value)
-        td_equipment_count.appendChild(text)
+            // text = document.createTextNode(class_member_count.value)
+            // td_member_count.appendChild(text)
+            // text = document.createTextNode(class_eqipment_count.value)
+            // td_equipment_count.appendChild(text)
         btn.setAttribute('class', 'btn btn-outline-danger btn-sm')
         text = document.createTextNode("刪除")
         btn.appendChild(text)
         td_btn.appendChild(btn)
-        tr.appendChild(th_id)
+            // tr.appendChild(th_id)
         tr.appendChild(td_name)
-        tr.appendChild(td_member_count)
-        tr.appendChild(td_equipment_count)
+            // tr.appendChild(td_member_count)
+            // tr.appendChild(td_equipment_count)
         tr.appendChild(td_btn)
         class_info_table.appendChild(tr)
     }
