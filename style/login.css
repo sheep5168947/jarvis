@@ -35,14 +35,14 @@ h2 {
 }
 
 .login_form {
-    background-image: url('../pic/5d1577323ad0a.png');
-    /* background-color: gray; */
+    /* background-image: url('../pic/5d1577323ad0a.png');
+    background-color: gray;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: contain; */
     height: auto;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    padding-left: 600px;
-    padding-right: 600px;
+    padding-top: 5%;
+    /* padding-bottom: 200px; */
+    padding-left: 500px;
+    padding-right: 500px;
 }
