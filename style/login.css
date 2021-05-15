@@ -35,14 +35,5 @@ h2 {
 }
 
 .login_form {
-    /* background-image: url('../pic/5d1577323ad0a.png');
-    background-color: gray;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain; */
-    /* height: auto; */
-    /* padding-top: 5%; */
-    /* padding-bottom: 200px; */
-    /* padding-left: 500px; */
-    /* padding-right: 500px; */
+    height: 80vh
 }
