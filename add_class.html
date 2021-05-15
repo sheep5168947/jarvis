@@ -44,7 +44,7 @@
         <div class="class_info_form p-5">
             <!-- <button type="button" class="btn btn-outline-primary btn-sm ">新增選課列</button> -->
             <select class="form-select form-select-sm mb-3" aria-label="Default select example" style="width: 200px" id="select">
-                <option selected value = "-1">選擇課程</option>
+                <option selected value = "-1">選擇班級</option>
                 <option value="0">App inventor</option>
                 <option value="1">javascript</option>
                 <option value="2">Minecraft紅石</option>
@@ -52,114 +52,58 @@
             </select>
             <!-- <form action="" method="POST"> -->
             <h2>
-                課程資訊
+                修改選擇的課程
             </h2>
             <table class="table my-3">
                 <thead>
                     <tr>
-                        <th scope="col">代碼</th>
-                        <th scope="col">班級名稱</th>
-                        <th scope="col">人數</th>
-                        <th scope="col">設備數量</th>
+                        <th scope="col">課程</th>
+                        <th>課程介紹</th>
                         <th scope="col">控制</th>
                     </tr>
                 </thead>
                 <tbody id="class_info_table">
                     <tr class="table-primary">
-                        <th scope="row">1</th>
-                        <td>大碩</td>
-                        <td>20</td>
-                        <td>4</td>
-                        <td><button class="btn btn-outline-dark btn-sm">修改</button></td>
+                        <th scope="row">APP inventor</th>
+                        <td>帶小朋友們使用app inventor來進入創作app的大門，並希望小朋友們可以在這堂課創作出屬於自己的app</td>
+                        <td><button class="btn btn-outline-danger btn-sm">刪除</button></td>
                     </tr>
                 </tbody>
             </table>
             <h2>
-                選課學生
-
+                新增課程
             </h2>
             <table class="table my-3">
-                <thead>
-                    <tr>
-                        <th scope="col">姓名</th>
-                        <th scope="col">學校</th>
-                        <th scope="col">學號</th>
-                        <th scope="col">年級</th>
-                        <th scope="col">控制</th>
 
-                    </tr>
-                </thead>
-                <th scope="row">
-                    <div class="input-group input-group-sm">
+                <table class="table my-3">
+                    <thead>
+                        <tr>
+                            <th scope="col">課程</th>
+                            <th>課程介紹</th>
+                            <th scope="col">控制</th>
 
-                        <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" id="student_name">
-                    </div>
-                </th>
-                <td>
-                    <div class="input-group input-group-sm">
-
-                        <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" id="student_school">
-                    </div>
-                </td>
-                <td>
-                    <div class="input-group input-group-sm">
-
-                        <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" id="student_number">
-                    </div>
-                </td>
-                <td>
-                    <div class="input-group input-group-sm">
-
-                        <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" id="student_grade">
-                    </div>
-                </td>
-                <td><button class="btn btn-outline-primary btn-sm" id="student_add_control">新增</button></td>
-                </tbody>
-            </table>
-            <table class="table my-3">
-                <thead>
-                    <tr>
-                        <th scope="col">姓名</th>
-                        <th scope="col">學校</th>
-                        <th scope="col">學號</th>
-                        <th scope="col">年級</th>
-                        <th scope="col">控制</th>
-
-                    </tr>
-                </thead>
-                <tbody id="student_info_table">
-                    <tr class="table-primary">
-                        <th scope="row">周杰倫</th>
-                        <td>淡江</td>
-                        <td>A1234567</td>
-                        <td>4</td>
-                        <td><button class="btn btn-outline-danger btn-sm">刪除</button></td>
-                    </tr>
-                    <tr class="table-secondary">
-                        <th scope="row">周杰倫</th>
-                        <td>淡江</td>
-                        <td>A1234567</td>
-                        <td>4</td>
-                        <td><button class="btn btn-outline-danger btn-sm">刪除</button></td>
-                    </tr>
-                    <tr class="table-primary">
-                        <th scope="row">周杰倫</th>
-                        <td>淡江</td>
-                        <td>A1234567</td>
-                        <td>4</td>
-                        <td><button class="btn btn-outline-danger btn-sm">刪除</button></td>
-                    </tr>
-                    <tr class="table-secondary">
-                        <th scope="row">周杰倫</th>
-                        <td>淡江</td>
-                        <td>A1234567</td>
-                        <td>4</td>
-                        <td><button class="btn btn-outline-danger btn-sm">刪除</button></td>
-                    </tr>
-                </tbody>
-            </table>
-            <!-- <input type="Submit" action="Submit" class="btn btn-dark btn-sg" data-toggle="modal" data-target=""> -->
-            <!-- </form> -->
+                        </tr>
+                    </thead>
+                    <tbody id="student_info_table">
+                        <tr class="table-primary">
+                            <th scope="row">APP inventor</th>
+                            <td>帶小朋友們使用app inventor來進入創作app的大門，並希望小朋友們可以在這堂課創作出屬於自己的app</td>
+                            <td><button class="btn btn-outline-primary btn-sm">新增</button></td>
+                        </tr>
+                        <tr class="table-primary">
+                            <th scope="row">APP inventor</th>
+                            <td>帶小朋友們使用app inventor來進入創作app的大門，並希望小朋友們可以在這堂課創作出屬於自己的app</td>
+                            <td><button class="btn btn-outline-primary btn-sm">新增</button></td>
+                        </tr>
+                        <tr class="table-primary">
+                            <th scope="row">APP inventor</th>
+                            <td>帶小朋友們使用app inventor來進入創作app的大門，並希望小朋友們可以在這堂課創作出屬於自己的app</td>
+                            <td><button class="btn btn-outline-primary btn-sm">新增</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- <input type="Submit" action="Submit" class="btn btn-dark btn-sg" data-toggle="modal" data-target=""> -->
+                <!-- </form> -->
 
         </div>
     </div>
