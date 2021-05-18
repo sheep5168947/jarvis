@@ -1,0 +1,133 @@
+[15-May-2021 17:51:29 Asia/Taipei] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'ysnkzxov_hct'@'localhost' to database 'ysnkzxov_hctdb' in /home/ysnkzxov/public_html/class/app/dbconnect.php:7
+Stack trace:
+#0 /home/ysnkzxov/public_html/class/app/dbconnect.php(7): PDO->__construct('mysql:host=loca...', 'ysnkzxov_hct', 'hctsqladmin!@#$')
+#1 {main}
+  thrown in /home/ysnkzxov/public_html/class/app/dbconnect.php on line 7
+[15-May-2021 17:54:20 Asia/Taipei] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'ysnkzxov_hct'@'localhost' to database 'ysnkzxov_hctdb' in /home/ysnkzxov/public_html/class/app/dbconnect.php:7
+Stack trace:
+#0 /home/ysnkzxov/public_html/class/app/dbconnect.php(7): PDO->__construct('mysql:host=loca...', 'ysnkzxov_hct', 'hctsqladmin!@#$')
+#1 {main}
+  thrown in /home/ysnkzxov/public_html/class/app/dbconnect.php on line 7
+[15-May-2021 18:33:45 Asia/Taipei] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'ysnkzxov_hct'@'localhost' to database 'ysnkzxov_hctdb' in /home/ysnkzxov/public_html/class/app/dbconnect.php:7
+Stack trace:
+#0 /home/ysnkzxov/public_html/class/app/dbconnect.php(7): PDO->__construct('mysql:host=loca...', 'ysnkzxov_hct', 'hctsqladmin!@#$')
+#1 /home/ysnkzxov/public_html/class/app/func.php(17): include('/home/ysnkzxov/...')
+#2 {main}
+  thrown in /home/ysnkzxov/public_html/class/app/dbconnect.php on line 7
+[15-May-2021 18:34:39 Asia/Taipei] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'ysnkzxov_hct'@'localhost' to database 'ysnkzxov_hctdb' in /home/ysnkzxov/public_html/class/app/dbconnect.php:7
+Stack trace:
+#0 /home/ysnkzxov/public_html/class/app/dbconnect.php(7): PDO->__construct('mysql:host=loca...', 'ysnkzxov_hct', 'hctsqladmin!@#$')
+#1 /home/ysnkzxov/public_html/class/app/func.php(17): include('/home/ysnkzxov/...')
+#2 {main}
+  thrown in /home/ysnkzxov/public_html/class/app/dbconnect.php on line 7
+[15-May-2021 18:34:41 Asia/Taipei] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'ysnkzxov_hct'@'localhost' to database 'ysnkzxov_hctdb' in /home/ysnkzxov/public_html/class/app/dbconnect.php:7
+Stack trace:
+#0 /home/ysnkzxov/public_html/class/app/dbconnect.php(7): PDO->__construct('mysql:host=loca...', 'ysnkzxov_hct', 'hctsqladmin!@#$')
+#1 /home/ysnkzxov/public_html/class/app/func.php(17): include('/home/ysnkzxov/...')
+#2 {main}
+  thrown in /home/ysnkzxov/public_html/class/app/dbconnect.php on line 7
+[15-May-2021 18:35:06 Asia/Taipei] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'class.hct369.com' (0) in /home/ysnkzxov/public_html/class/app/dbconnect.php:7
+Stack trace:
+#0 /home/ysnkzxov/public_html/class/app/dbconnect.php(7): PDO->__construct('mysql:host=clas...', 'ysnkzxov_hct', 'hctsqladmin!@#$')
+#1 /home/ysnkzxov/public_html/class/app/func.php(17): include('/home/ysnkzxov/...')
+#2 {main}
+  thrown in /home/ysnkzxov/public_html/class/app/dbconnect.php on line 7
+[15-May-2021 18:35:30 Asia/Taipei] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'class.hct369.com' (0) in /home/ysnkzxov/public_html/class/app/dbconnect.php:7
+Stack trace:
+#0 /home/ysnkzxov/public_html/class/app/dbconnect.php(7): PDO->__construct('mysql:host=clas...', 'ysnkzxov_hct', 'hctsqladmin!@#$')
+#1 /home/ysnkzxov/public_html/class/app/func.php(17): include('/home/ysnkzxov/...')
+#2 {main}
+  thrown in /home/ysnkzxov/public_html/class/app/dbconnect.php on line 7
+[15-May-2021 18:35:34 Asia/Taipei] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'class.hct369.com' (0) in /home/ysnkzxov/public_html/class/app/dbconnect.php:7
+Stack trace:
+#0 /home/ysnkzxov/public_html/class/app/dbconnect.php(7): PDO->__construct('mysql:host=clas...', 'ysnkzxov_hct', 'hctsqladmin!@#$')
+#1 /home/ysnkzxov/public_html/class/app/func.php(17): include('/home/ysnkzxov/...')
+#2 {main}
+  thrown in /home/ysnkzxov/public_html/class/app/dbconnect.php on line 7
+[15-May-2021 18:35:48 Asia/Taipei] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'ysnkzxov_hct'@'sun6323.bestoneserver.com' to database 'ysnkzxov_hctdb' in /home/ysnkzxov/public_html/class/app/dbconnect.php:7
+Stack trace:
+#0 /home/ysnkzxov/public_html/class/app/dbconnect.php(7): PDO->__construct('mysql:host=hct3...', 'ysnkzxov_hct', 'hctsqladmin!@#$')
+#1 /home/ysnkzxov/public_html/class/app/func.php(17): include('/home/ysnkzxov/...')
+#2 {main}
+  thrown in /home/ysnkzxov/public_html/class/app/dbconnect.php on line 7
+[15-May-2021 18:36:23 Asia/Taipei] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'ysnkzxov_hct'@'sun6323.bestoneserver.com' to database 'ysnkzxov_hctdb' in /home/ysnkzxov/public_html/class/app/dbconnect.php:7
+Stack trace:
+#0 /home/ysnkzxov/public_html/class/app/dbconnect.php(7): PDO->__construct('mysql:host=hct3...', 'ysnkzxov_hct', 'hctsqladmin!@#$')
+#1 /home/ysnkzxov/public_html/class/app/func.php(17): include('/home/ysnkzxov/...')
+#2 {main}
+  thrown in /home/ysnkzxov/public_html/class/app/dbconnect.php on line 7
+[15-May-2021 18:36:29 Asia/Taipei] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'ysnkzxov_hct'@'sun6323.bestoneserver.com' to database 'ysnkzxov_hct_db' in /home/ysnkzxov/public_html/class/app/dbconnect.php:7
+Stack trace:
+#0 /home/ysnkzxov/public_html/class/app/dbconnect.php(7): PDO->__construct('mysql:host=hct3...', 'ysnkzxov_hct', 'hctsqladmin!@#$')
+#1 /home/ysnkzxov/public_html/class/app/func.php(17): include('/home/ysnkzxov/...')
+#2 {main}
+  thrown in /home/ysnkzxov/public_html/class/app/dbconnect.php on line 7
+[15-May-2021 18:36:32 Asia/Taipei] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'ysnkzxov_hct'@'sun6323.bestoneserver.com' to database 'ysnkzxov_hct_db' in /home/ysnkzxov/public_html/class/app/dbconnect.php:7
+Stack trace:
+#0 /home/ysnkzxov/public_html/class/app/dbconnect.php(7): PDO->__construct('mysql:host=hct3...', 'ysnkzxov_hct', 'hctsqladmin!@#$')
+#1 /home/ysnkzxov/public_html/class/app/func.php(17): include('/home/ysnkzxov/...')
+#2 {main}
+  thrown in /home/ysnkzxov/public_html/class/app/dbconnect.php on line 7
+[15-May-2021 18:37:18 Asia/Taipei] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'ysnkzxov_hct'@'sun6323.bestoneserver.com' to database 'ysnkzxov_hct_db' in /home/ysnkzxov/public_html/class/app/dbconnect.php:7
+Stack trace:
+#0 /home/ysnkzxov/public_html/class/app/dbconnect.php(7): PDO->__construct('mysql:host=clas...', 'ysnkzxov_hct', 'hctsqladmin!@#$')
+#1 /home/ysnkzxov/public_html/class/app/func.php(17): include('/home/ysnkzxov/...')
+#2 {main}
+  thrown in /home/ysnkzxov/public_html/class/app/dbconnect.php on line 7
+[15-May-2021 18:38:19 Asia/Taipei] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/ysnkzxov/public_html/class/app/func.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/ysnkzxov/public_html/class/app/func.php on line 19
+[15-May-2021 18:39:26 Asia/Taipei] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/ysnkzxov/public_html/class/app/func.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/ysnkzxov/public_html/class/app/func.php on line 19
+[15-May-2021 18:39:44 Asia/Taipei] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/ysnkzxov/public_html/class/app/func.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/ysnkzxov/public_html/class/app/func.php on line 19
+[15-May-2021 18:40:07 Asia/Taipei] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/ysnkzxov/public_html/class/app/func.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/ysnkzxov/public_html/class/app/func.php on line 19
+[15-May-2021 18:40:28 Asia/Taipei] PHP Fatal error:  Uncaught Error: Call to a member function fetchall() on bool in /home/ysnkzxov/public_html/class/app/func.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/ysnkzxov/public_html/class/app/func.php on line 19
+[15-May-2021 18:41:17 Asia/Taipei] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/ysnkzxov/public_html/class/app/func.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/ysnkzxov/public_html/class/app/func.php on line 19
+[15-May-2021 18:42:51 Asia/Taipei] PHP Notice:  Undefined index: pc in /home/ysnkzxov/public_html/class/app/func.php on line 24
+[15-May-2021 18:43:09 Asia/Taipei] PHP Notice:  Undefined index: pc in /home/ysnkzxov/public_html/class/app/func.php on line 24
+[15-May-2021 18:49:08 Asia/Taipei] PHP Notice:  Undefined index: pc in /home/ysnkzxov/public_html/class/app/func.php on line 24
+[15-May-2021 18:56:30 Asia/Taipei] PHP Notice:  Undefined index: action in /home/ysnkzxov/public_html/class/app/func.php on line 2
+[15-May-2021 18:56:39 Asia/Taipei] PHP Notice:  Undefined index: action in /home/ysnkzxov/public_html/class/app/func.php on line 2
+[15-May-2021 18:58:18 Asia/Taipei] PHP Notice:  Undefined index: action in /home/ysnkzxov/public_html/class/app/func.php on line 2
+[15-May-2021 18:59:54 Asia/Taipei] PHP Notice:  Undefined index: action in /home/ysnkzxov/public_html/class/app/func.php on line 2
+[15-May-2021 19:00:26 Asia/Taipei] PHP Notice:  Undefined index: action in /home/ysnkzxov/public_html/class/app/func.php on line 2
+[15-May-2021 19:02:19 Asia/Taipei] PHP Notice:  Undefined index: action in /home/ysnkzxov/public_html/class/app/func.php on line 2
+[15-May-2021 19:02:36 Asia/Taipei] PHP Notice:  Undefined index: action in /home/ysnkzxov/public_html/class/app/func.php on line 2
+[15-May-2021 19:02:51 Asia/Taipei] PHP Notice:  Undefined index: pc in /home/ysnkzxov/public_html/class/app/func.php on line 24
+[15-May-2021 19:02:54 Asia/Taipei] PHP Notice:  Undefined index: action in /home/ysnkzxov/public_html/class/app/func.php on line 2
+[15-May-2021 19:03:42 Asia/Taipei] PHP Notice:  Undefined index: action in /home/ysnkzxov/public_html/class/app/func.php on line 2
+[15-May-2021 19:04:16 Asia/Taipei] PHP Notice:  Undefined index: action in /home/ysnkzxov/public_html/class/app/func.php on line 2
+[15-May-2021 19:04:20 Asia/Taipei] PHP Notice:  Undefined index: action in /home/ysnkzxov/public_html/class/app/func.php on line 2
+[15-May-2021 19:04:39 Asia/Taipei] PHP Notice:  Undefined index: action in /home/ysnkzxov/public_html/class/app/func.php on line 2
+[15-May-2021 19:04:44 Asia/Taipei] PHP Notice:  Undefined index: action in /home/ysnkzxov/public_html/class/app/func.php on line 2
+[15-May-2021 19:07:14 Asia/Taipei] PHP Notice:  Undefined index: pc in /home/ysnkzxov/public_html/class/app/func.php on line 24
+[15-May-2021 19:08:16 Asia/Taipei] PHP Notice:  Undefined index: pc in /home/ysnkzxov/public_html/class/app/func.php on line 24
+[15-May-2021 19:10:03 Asia/Taipei] PHP Notice:  Undefined index: pc in /home/ysnkzxov/public_html/class/app/func.php on line 24
+[18-May-2021 14:14:30 Asia/Taipei] PHP Notice:  Undefined index: action in /home/ysnkzxov/public_html/class/app/func.php on line 2
+[18-May-2021 15:00:50 Asia/Taipei] PHP Notice:  Undefined index: pc in /home/ysnkzxov/public_html/class/app/func.php on line 24
+[18-May-2021 15:01:55 Asia/Taipei] PHP Notice:  Undefined index: action in /home/ysnkzxov/public_html/class/app/func.php on line 2
+[18-May-2021 15:02:25 Asia/Taipei] PHP Notice:  Undefined index: action in /home/ysnkzxov/public_html/class/app/func.php on line 2
+[18-May-2021 15:02:29 Asia/Taipei] PHP Notice:  Undefined index: action in /home/ysnkzxov/public_html/class/app/func.php on line 2
+[18-May-2021 15:02:50 Asia/Taipei] PHP Notice:  Undefined index: action in /home/ysnkzxov/public_html/class/app/func.php on line 2
+[18-May-2021 15:02:53 Asia/Taipei] PHP Notice:  Undefined index: action in /home/ysnkzxov/public_html/class/app/func.php on line 2
+[18-May-2021 15:03:39 Asia/Taipei] PHP Notice:  Undefined index: action in /home/ysnkzxov/public_html/class/app/func.php on line 2
+[18-May-2021 15:05:20 Asia/Taipei] PHP Notice:  Undefined index: action in /home/ysnkzxov/public_html/class/app/func.php on line 2
+[18-May-2021 15:07:13 Asia/Taipei] PHP Notice:  Undefined index: action in /home/ysnkzxov/public_html/class/app/func.php on line 2
+[18-May-2021 15:13:09 Asia/Taipei] PHP Notice:  Undefined index: pc in /home/ysnkzxov/public_html/class/app/func.php on line 24
+[18-May-2021 15:13:49 Asia/Taipei] PHP Notice:  Undefined index: action in /home/ysnkzxov/public_html/class/app/func.php on line 2
+[18-May-2021 15:14:08 Asia/Taipei] PHP Notice:  Undefined index: action in /home/ysnkzxov/public_html/class/app/func.php on line 2
