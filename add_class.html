@@ -29,9 +29,6 @@
             </div>
             <a href="" class="nav-brand"></a>
             <div id="user_name"></div>
-            <script>
-                $('#user_name').load('/app/ajaxloginstate.php');
-            </script>
             <form class="form-inline" action="/app/func.php" method="post">
                 <!-- action->app,value -> logout -->
                 <input type="submit" name="action" class="btn btn-dark btn-sg" data-toggle="modal" data-target="" value="logout">
@@ -264,5 +261,6 @@
     </script>
 </body>
 <script src="/script/add_class.js"></script>
+<script src="./script/login_username.js"></script>
 
 </html>
