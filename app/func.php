@@ -22,7 +22,7 @@ switch ( $_POST['action'] ) {
                 $_SESSION['user_id']=$user['user_id'];
                 $_SESSION['user_name']=$user['user_name'];
                 $_SESSION['pc']=$user['pc'];
-                echo '<script>window.location.replace("/index")</script>';
+                echo '<script>window.location.replace("/")</script>';
             }
             else{ 
                 echo '<script> window.alert("帳號或密碼錯誤!");</script>';
