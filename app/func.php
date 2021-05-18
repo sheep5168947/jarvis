@@ -11,7 +11,7 @@ switch ( $_POST['action'] ) {
 
         if(!isset($acc) || !isset($pwd)){
             echo '<script> window.alert("請輸入帳號或密碼!");</script>';
-            echo '<script>window.location.replace("/login.html")</script>';
+            echo '<script>window.location.replace("/login")</script>';
         }
         else{
             include("dbconnect.php");
@@ -22,11 +22,11 @@ switch ( $_POST['action'] ) {
                 $_SESSION['user_id']=$user['user_id'];
                 $_SESSION['user_name']=$user['user_name'];
                 $_SESSION['pc']=$user['pc'];
-                echo '<script>window.location.replace("/mainpage.html")</script>';
+                echo '<script>window.location.replace("/index")</script>';
             }
             else{ 
                 echo '<script> window.alert("帳號或密碼錯誤!");</script>';
-                echo '<script>window.location.replace("/login.html")</script>';
+                echo '<script>window.location.replace("/login")</script>';
             }
             $conn=null;
         }
@@ -36,6 +36,6 @@ switch ( $_POST['action'] ) {
     case "logout":
         session_start();
         session_destroy();
-        echo '<script>window.location.replace("/login.html")</script>';
+        echo '<script>window.location.replace("/login")</script>';
     break;
 }
