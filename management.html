@@ -37,6 +37,10 @@
 
             </div>
             <a href="" class="nav-brand"></a>
+            <div id="user_name"></div>
+            <script>
+                $('#user_name').load('/app/ajaxloginstate.php');
+            </script>
             <form class="form-inline" action="/app/func.php" method="post">
                 <!-- action->app,value -> logout -->
                 <input type="submit" name="action" class="btn btn-dark btn-sg" data-toggle="modal" data-target=""
@@ -128,6 +132,8 @@
                 <h5>
                     新增學生
                 </h5>
+                <input type="submit" action="submit" class="btn btn-outline-primary btn-sm " data-toggle="modal"
+                    data-target="" value="新增欄位"></button>
                 <table class="table my-3">
                     <thead>
                         <tr>
