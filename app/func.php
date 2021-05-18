@@ -17,11 +17,11 @@ switch ( $_POST['action'] ) {
             include("dbconnect.php");
             $sqlresult =$conn->query("select * from hct_user where user_acct = '$acc' and user_pwd=md5('$pwd')");
             $user=$sqlresult->fetch();
-            print_r ($user);
+            //print_r ($user);
             if($user){
                 $_SESSION['user_id']=$user['user_id'];
                 $_SESSION['user_name']=$user['user_name'];
-                $_SESSION['pc']=$user['pc'];
+                $_SESSION['pc_quantity']=$user['pc_quantity'];
                 echo '<script>window.location.replace("/")</script>';
             }
             else{ 
