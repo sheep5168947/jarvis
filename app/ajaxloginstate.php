@@ -6,6 +6,6 @@ if(!isset($_SESSION['user_id']))
 	echo '<script>window.location.replace("/login.html")</script>';
 }
 else{
-	echo $_SESSION['user_name'];
+	echo $_SESSION['user_name']; 
 }
 ?>
